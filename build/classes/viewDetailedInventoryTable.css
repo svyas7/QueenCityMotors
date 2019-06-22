@@ -1,0 +1,60 @@
+table.carDataTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.carDataTable td, table.carDataTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.carDataTable tbody td {
+  font-size: 13px;
+}
+table.carDataTable tr:nth-child(even) {
+  background: #F1F1F1;
+}
+table.carDataTable td:nth-child(even) {
+  background: #F1F1F1;
+}
+table.carDataTable thead {
+  background: #800080;
+  background: -moz-linear-gradient(top, #a040a0 0%, #8c198c 66%, #800080 100%);
+  background: -webkit-linear-gradient(top, #a040a0 0%, #8c198c 66%, #800080 100%);
+  background: linear-gradient(to bottom, #a040a0 0%, #8c198c 66%, #800080 100%);
+  border-bottom: 2px solid #444444;
+}
+table.carDataTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFD700;
+  border-left: 2px solid #D0E4F5;
+}
+table.carDataTable thead th:first-child {
+  border-left: none;
+}
+
+table.carDataTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.carDataTable tfoot td {
+  font-size: 14px;
+}
+table.carDataTable tfoot .links {
+  text-align: right;
+}
+table.carDataTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
